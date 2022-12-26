@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor:-moz-zoom-in;
+}
+body{
+    background-color: #F5F9FC;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    margin: 0 7rem;
+}
+.links{
+    text-decoration: none;
+    margin-left: 3rem;
+    color: black;
+    font-weight: 700;
+}
+div{
+    display: flex;
+    align-items: center;
+}
+.iconos{
+    margin-left: 1rem;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+img{
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+i{
+    margin-left: 1rem;
+}
+.imgPerfil{
+    margin-left: 1rem;   
+}
+
+.formuMayor{
+    position: relative;
+}
+.icono{
+    position: absolute;   
+    margin-left: 0.5rem; 
+}
+
+.forText{
+    padding: 0.8rem 2rem;
+    border-radius: 1.5rem;
+    color: #99A2AB;
+    font-size: 1.3rem;
+    margin: 1.3rem 0;
+    border: 1px solid #99A2AB;
+}
